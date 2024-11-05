@@ -33,7 +33,8 @@ function App() {
 
   return (
     <>
-      <h1> Counter click useState</h1>
+    
+      <h1 className="text-3xl font-bold underline"> Counter click useState</h1>
       <h2>Counter Value: {counter}</h2>
 
       <button onClick={addValue}>Add Value {counter}</button>&nbsp;&nbsp;&nbsp;
